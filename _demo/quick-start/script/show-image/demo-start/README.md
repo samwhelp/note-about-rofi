@@ -30,3 +30,13 @@ echo -en "Item-Title\x00icon\x1f/usr/share/backgrounds/default.jpg\n" | rofi -dm
 | Column 1     | Column 2     | Column 3     | Column 4     | Column 5                             | Column 6     |
 | ------------ | ------------ | ------------ | ------------ | ------------------------------------ | ------------ |
 | `Item-Title` | `\x00`       | `icon`       | `\x1f`       | `/usr/share/backgrounds/default.jpg` | `\n`         |
+
+
+| Column | Value                                | Note                                 |
+| ------ | ------------------------------------ | ------------------------------------ |
+| **1**  | `Item-Title`                         |  item title                          |
+| **2**  | `\x00`                               |                                      |
+| **3**  | `icon`                               |                                      |
+| **4**  | `\x1f`                               |                                      |
+| **5**  | `/usr/share/backgrounds/default.jpg` |  image path                          |
+| **6**  | `\n`                                 |                                      |
