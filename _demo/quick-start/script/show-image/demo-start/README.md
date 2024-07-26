@@ -19,8 +19,9 @@
 
 | Manual |
 | ------ |
-| [rofi-script](https://github.com/davatorium/rofi/blob/next/doc/rofi-script.5.markdown)
-| [rofi-thumbnails](https://github.com/davatorium/rofi/blob/next/doc/rofi-thumbnails.5.markdown)
+| [man rofi-dmenu](https://github.com/davatorium/rofi/blob/next/doc/rofi-dmenu.5.markdown) |
+| [man rofi-script](https://github.com/davatorium/rofi/blob/next/doc/rofi-script.5.markdown) |
+| [man rofi-thumbnails](https://github.com/davatorium/rofi/blob/next/doc/rofi-thumbnails.5.markdown) |
 
 
 ``` sh
