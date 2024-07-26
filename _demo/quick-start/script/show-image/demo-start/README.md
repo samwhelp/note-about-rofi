@@ -40,3 +40,16 @@ echo -en "Item-Title\x00icon\x1f/usr/share/backgrounds/default.jpg\n" | rofi -dm
 | **4**  | `\x1f`                               |  `\x1f` for separator                                |
 | **5**  | `/usr/share/backgrounds/default.jpg` |  extra option value: image path                      |
 | **6**  | `\n`                                 |  row end                                             |
+
+
+
+
+## echo option
+
+run `man echo` or run `help echo`
+
+```
+       -n     do not output the trailing newline
+
+       -e     enable interpretation of backslash escapes
+```
