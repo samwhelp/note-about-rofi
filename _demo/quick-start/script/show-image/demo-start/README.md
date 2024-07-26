@@ -32,11 +32,11 @@ echo -en "Item-Title\x00icon\x1f/usr/share/backgrounds/default.jpg\n" | rofi -dm
 | `Item-Title` | `\x00`       | `icon`       | `\x1f`       | `/usr/share/backgrounds/default.jpg` | `\n`         |
 
 
-| Column | Value                                | Note                                 |
-| ------ | ------------------------------------ | ------------------------------------ |
-| **1**  | `Item-Title`                         |  item title                          |
-| **2**  | `\x00`                               |                                      |
-| **3**  | `icon`                               |                                      |
-| **4**  | `\x1f`                               |                                      |
-| **5**  | `/usr/share/backgrounds/default.jpg` |  image path                          |
-| **6**  | `\n`                                 |                                      |
+| Column | Value                                | Note                                                 |
+| ------ | ------------------------------------ | ---------------------------------------------------- |
+| **1**  | `Item-Title`                         |  item title                                          |
+| **2**  | `\x00`                               |  NULL character (`\x00`) for extra options start     |
+| **3**  | `icon`                               |  extra option key: icon                              |
+| **4**  | `\x1f`                               |  `\x1f` for separator                                |
+| **5**  | `/usr/share/backgrounds/default.jpg` |  extra option value: image path                      |
+| **6**  | `\n`                                 |  row end                                             |
