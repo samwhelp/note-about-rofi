@@ -17,6 +17,7 @@ parent: 入門
 * [設定檔路徑](#設定檔路徑)
 * [範例](#範例)
 * [Dump Config](#dump-config)
+* [關於「~/.config/rofi/config.rasi」的內容架構](#關於configroficonfigrasi的內容架構)
 
 
 
@@ -89,8 +90,7 @@ rofi -dump-theme -no-config
 
 
 
-## 關於「~/.config/rofi/config.rasi」
-
+## 關於「~/.config/rofi/config.rasi」的內容架構
 
 關於「~/.config/rofi/config.rasi」的內容架構，類似如下
 
