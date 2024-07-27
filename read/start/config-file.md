@@ -85,3 +85,28 @@ rofi -dump-theme -no-config
 ```
 
 顯示的內容，可以參考範例「dump-default-theme / [theme.rasi](https://github.com/samwhelp/note-about-rofi/blob/demo/_demo/quick-start/dump/theme/Default/theme.rasi)」。
+
+
+
+
+## 關於「~/.config/rofi/config.rasi」
+
+
+關於「~/.config/rofi/config.rasi」的內容架構，類似如下
+
+``` css
+configuration {
+
+}
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+```
+
+或是
+
+``` css
+configuration {
+
+}
+@import "extra-config.rasi"
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+```
