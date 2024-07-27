@@ -184,5 +184,17 @@ rofi -show drun -theme-str "element { padding: 20px ; }"
 
 ### 透過設定檔
 
+| 設定檔路徑 |
+| --------- |
+| `~/.config/rofi/config.rasi` |
+
+舉例：設定採用「`gruvbox-dark`」，設定片段如下
+
+```
+@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+```
+
+
+
 
 ### 透過輔助工具
