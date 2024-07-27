@@ -12,6 +12,7 @@
 ## 主題
 
 * [範例](#範例)
+* [入門](#入門)
 * [相關筆記](#相關筆記)
 
 
@@ -22,6 +23,16 @@
 | 範例 |
 | --- |
 | [Demo](https://github.com/samwhelp/note-about-rofi/tree/gh-pages/_demo) |
+
+
+
+
+## 入門
+
+| 入門 |
+| --- |
+| [安裝 Rofi](https://samwhelp.github.io/note-about-rofi/read/start/install-rofi.html) |
+| [啟動 Rofi](https://samwhelp.github.io/note-about-rofi/read/start/launch-rofi.html) |
 
 
 
