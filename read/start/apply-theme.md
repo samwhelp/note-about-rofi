@@ -29,6 +29,8 @@ parent: 入門
 | Rofi / Wiki / [Themes](https://github.com/davatorium/rofi/wiki/Themes) |
 | [man rofi-theme](https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown) |
 | [man rofi-theme-selector](https://github.com/davatorium/rofi/blob/next/doc/rofi-theme-selector.1.markdown) |
+| Rofi / [default_configuration.rasi](https://github.com/davatorium/rofi/blob/next/doc/default_configuration.rasi) |
+| Rofi / [default_theme.rasi](https://github.com/davatorium/rofi/blob/next/doc/default_theme.rasi) |
 
 
 
