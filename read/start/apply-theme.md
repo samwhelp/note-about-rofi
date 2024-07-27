@@ -98,3 +98,52 @@ solarized_alternate
 
 
 ### 透過指令參數
+
+#### 透過「rofi -theme」
+
+第一個方式我們可以透過「rofi -theme」這個「指令參數」來指定「rofi」要採用的「佈景主題」。
+
+> 以上面找到的「`gruvbox-dark`」這個「**佈景主題名稱**」為例，執行下面指令。
+
+``` sh
+rofi -show drun -theme gruvbox-dark
+```
+
+> 也可以指定「**佈景主題路徑**」，執行下面指令。
+
+``` sh
+rofi -show drun -theme /usr/share/rofi/themes/gruvbox-dark.rasi
+```
+
+> 上面有提到，也可以將「Rofi 佈景主題」放在「`~/.config/rofi`」這個資料夾底下。
+
+執行下面指令，複製一份到「~/.config/rofi/demo-theme.rasi」。
+
+``` sh
+cp /usr/share/rofi/themes/gruvbox-dark.rasi ~/.config/rofi/demo-theme.rasi
+```
+
+執行下面指令
+
+``` sh
+rofi -show drun -theme demo-theme
+```
+
+> 也可以在「`~/.config/rofi`」這個資料夾底下，開一個「子資料夾」放置。
+
+``` sh
+mkdir -p ~/.config/rofi/extra
+
+cp /usr/share/rofi/themes/gruvbox-dark.rasi ~/.config/rofi/extra/my-theme.rasi
+```
+
+執行下面指令
+
+``` sh
+rofi -show drun -theme extra/my-theme
+```
+
+
+
+
+#### 透過「rofi -theme-str」
