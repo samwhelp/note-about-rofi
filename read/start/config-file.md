@@ -16,6 +16,7 @@ parent: 入門
 * [相關文件](#相關文件)
 * [設定檔路徑](#設定檔路徑)
 * [範例](#範例)
+* [Dump Config](#dump-config)
 
 
 
@@ -46,3 +47,24 @@ parent: 入門
 | --- | --- |
 | [rofi-config](https://github.com/samwhelp/note-about-rofi/tree/demo/_demo/rofi-config/Main) | [~/.config/rofi/config.rasi](https://github.com/samwhelp/note-about-rofi/blob/demo/_demo/rofi-config/Main/asset/overlay/etc/skel/.config/rofi/config.rasi) |
 | [dump-default-config](https://github.com/samwhelp/note-about-rofi/tree/demo/_demo/quick-start/dump/config/Default) | [~/.config/rofi/config.rasi](https://github.com/samwhelp/note-about-rofi/blob/demo/_demo/quick-start/dump/config/Default/config.rasi) |
+
+
+
+## Dump Config
+
+在「[設定採用佈景主題](https://samwhelp.github.io/note-about-rofi/read/start/apply-theme.html#%E9%80%8F%E9%81%8E%E8%A8%AD%E5%AE%9A%E6%AA%94)」這篇有提到「roif」的「主要設定檔路徑」在「`~/.config/rofi/config.rasi`」。
+
+
+> 我們可以透過執行下面的指令，將「Rofi **目前**的設定值」給「Dump」出來。
+
+``` sh
+rofi -dump-config
+```
+
+> 執行下面的指令，則是將「Rofi **預設**的設定值」給「Dump」出來。
+
+``` sh
+rofi -dump-config -no-config
+```
+
+顯示的內容，可以參考範例「dump-default-config / [config.rasi](https://github.com/samwhelp/note-about-rofi/blob/demo/_demo/quick-start/dump/config/Default/config.rasi)」。
