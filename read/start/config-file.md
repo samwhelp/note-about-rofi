@@ -78,4 +78,10 @@ rofi -dump-config -no-config
 rofi -dump-theme
 ```
 
+> 執行下面的指令，則是將「預設關於佈景主題的設定值」給「Dump」出來。
+
+``` sh
+rofi -dump-theme -no-config
+```
+
 顯示的內容，可以參考範例「dump-default-theme / [theme.rasi](https://github.com/samwhelp/note-about-rofi/blob/demo/_demo/quick-start/dump/theme/Default/theme.rasi)」。
