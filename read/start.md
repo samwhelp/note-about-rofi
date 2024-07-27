@@ -13,3 +13,4 @@ has_children: true
 | [啟動 Rofi](https://samwhelp.github.io/note-about-rofi/read/start/launch-rofi.html) |
 | [按鍵綁定 / 啟動 Rofi](https://samwhelp.github.io/note-about-rofi/read/start/keybind-launching-rofi.html) |
 | [設定採用佈景主題](https://samwhelp.github.io/note-about-rofi/read/start/apply-theme.html) |
+| [Rofi 設定檔](https://samwhelp.github.io/note-about-rofi/read/start/config-file.html) |
