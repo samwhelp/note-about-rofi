@@ -47,6 +47,7 @@ parent: 入門
 | --- | --- |
 | [rofi-config](https://github.com/samwhelp/note-about-rofi/tree/demo/_demo/rofi-config/Main) | [~/.config/rofi/config.rasi](https://github.com/samwhelp/note-about-rofi/blob/demo/_demo/rofi-config/Main/asset/overlay/etc/skel/.config/rofi/config.rasi) |
 | [dump-default-config](https://github.com/samwhelp/note-about-rofi/tree/demo/_demo/quick-start/dump/config/Default) | [config.rasi](https://github.com/samwhelp/note-about-rofi/blob/demo/_demo/quick-start/dump/config/Default/config.rasi) |
+| [dump-default-theme](https://github.com/samwhelp/note-about-rofi/tree/demo/_demo/quick-start/dump/theme/Default) | [theme.rasi](https://github.com/samwhelp/note-about-rofi/blob/demo/_demo/quick-start/dump/theme/Default/theme.rasi) |
 
 
 
@@ -68,3 +69,13 @@ rofi -dump-config -no-config
 ```
 
 顯示的內容，可以參考範例「dump-default-config / [config.rasi](https://github.com/samwhelp/note-about-rofi/blob/demo/_demo/quick-start/dump/config/Default/config.rasi)」。
+
+
+> 額外一提，執行下面的指令，則是將「目前關於佈景主題的設定值」給「Dump」出來。
+
+
+``` sh
+rofi -dump-theme
+```
+
+顯示的內容，可以參考範例「dump-default-theme / [theme.rasi](https://github.com/samwhelp/note-about-rofi/blob/demo/_demo/quick-start/dump/theme/Default/theme.rasi)」。
