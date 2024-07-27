@@ -1,0 +1,21 @@
+
+################################################################################
+### Head: Application / Launch Rofi
+##
+
+##
+## ## Link
+##
+## * https://github.com/Murzchnvok/rofi-collection
+##
+## ## Rofi Theme
+##
+## `git clone https://github.com/Murzchnvok/rofi-collection.git ~/.config/rofi-collection`
+##
+
+super + shift + {i,o,p}
+	rofi -show {run,drun,window} -theme $HOME/.config/rofi-collection/nord/nord.rasi
+
+##
+### Tail: Application / Launch Rofi
+################################################################################
