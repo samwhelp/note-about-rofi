@@ -45,4 +45,4 @@ parent: 入門
 | 範例 |
 | --- |
 | [rofi-config](https://github.com/samwhelp/note-about-rofi/tree/demo/_demo/rofi-config/Main) |
-| [dump-defult-config](https://github.com/samwhelp/note-about-rofi/tree/demo/_demo/quick-start/dump/config/Default) |
+| [dump-default-config](https://github.com/samwhelp/note-about-rofi/tree/demo/_demo/quick-start/dump/config/Default) |
