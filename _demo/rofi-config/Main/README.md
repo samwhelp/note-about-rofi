@@ -10,6 +10,11 @@
 | [~/.config/rofi/config.rasi](./asset/overlay/etc/skel/.config/rofi/config.rasi) |
 
 
+## Dump Default Config
+
+* [Dump Default Config](../../quick-start/dump/config/Default/config.rasi)
+
+
 
 
 ## Fedora Package
