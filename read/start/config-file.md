@@ -98,6 +98,14 @@ rofi -dump-theme -no-config
 configuration {
 
 }
+```
+
+或是
+
+``` css
+configuration {
+
+}
 @theme "/usr/share/rofi/themes/Arc-Dark.rasi"
 ```
 
