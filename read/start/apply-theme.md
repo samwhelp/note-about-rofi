@@ -94,6 +94,9 @@ solarized_alternate
 ## 如何設定採用
 
 * [透過指令參數](#透過指令參數)
+* [透過設定檔](#透過設定檔)
+* [透過輔助工具](#透過輔助工具)
+
 
 
 
@@ -101,7 +104,7 @@ solarized_alternate
 
 #### 透過「rofi -theme」
 
-第一個方式我們可以透過「rofi -theme」這個「指令參數」來指定「rofi」要採用的「佈景主題」。
+第一個方式我們可以透過「`rofi -theme`」這個「指令參數」來指定「rofi」要採用的「佈景主題」。
 
 > 以上面找到的「`gruvbox-dark`」這個「**佈景主題名稱**」為例，執行下面指令。
 
@@ -147,3 +150,33 @@ rofi -show drun -theme extra/my-theme
 
 
 #### 透過「rofi -theme-str」
+
+> 另外有一個指令參數「`rofi -theme-str`」，可以直接將「佈景主題裡面的設定」傳給「rofi」採用。
+
+
+我們可先執行「`rofi -dump-theme`」找到「目前採用的佈景主題」有那些設定，
+
+舉例其中可能的[設定片段](https://github.com/davatorium/rofi/blob/next/doc/default_theme.rasi#L34-L39)如下
+
+```
+element {
+    padding: 1px ;
+    spacing: 5px ;
+    border:  0;
+    cursor:  pointer;
+}
+```
+
+執行下面指令，
+
+``` sh
+rofi -show drun -theme-str "element { padding: 20px ; }"
+```
+
+
+
+
+### 透過設定檔
+
+
+### 透過輔助工具
