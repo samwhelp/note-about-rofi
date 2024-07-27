@@ -13,11 +13,11 @@
 
 * [sxhkdrc](sxhkdrc)
 
-| Keybind           | Action                        | Command                         |
-| ----------------- | ----------------------------- | ------------------------------- |
-| `Alt + Shift + o` | Launch Rofi (**drun mode**)   | `rofi -show drun -show-icons`   |
-| `Alt + Shift + p` | Launch Rofi (**window mode**) | `rofi -show window -show-icons` |
-| `Alt + Shift + i` | Launch Rofi (**run mode**)    | `rofi -show run`                |
+| Keybind           | Action                        | Command                                                                 |
+| ----------------- | ----------------------------- | ----------------------------------------------------------------------- |
+| `Alt + Shift + o` | Launch Rofi (**drun mode**)   | `rofi -show drun -theme $HOME/.config/rofi-collection/nord/nord.rasi`   |
+| `Alt + Shift + p` | Launch Rofi (**window mode**) | `rofi -show window -theme $HOME/.config/rofi-collection/nord/nord.rasi` |
+| `Alt + Shift + i` | Launch Rofi (**run mode**)    | `rofi -show run -theme $HOME/.config/rofi-collection/nord/nord.rasi`    |
 
 > from [rofi-collection](https://github.com/Murzchnvok/rofi-collection)
 
