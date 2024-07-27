@@ -1,6 +1,6 @@
 ---
 title: 按鍵綁定 / 啟動 Rofi
-nav_order: 1020
+nav_order: 1030
 has_children: false
 parent: 入門
 ---

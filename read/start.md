@@ -11,3 +11,4 @@ has_children: true
 | --- |
 | [安裝 Rofi](https://samwhelp.github.io/note-about-rofi/read/start/install-rofi.html) |
 | [啟動 Rofi](https://samwhelp.github.io/note-about-rofi/read/start/launch-rofi.html) |
+| [按鍵綁定 / 啟動 Rofi](https://samwhelp.github.io/note-about-rofi/read/start/keybind-launching-rofi.html) |
