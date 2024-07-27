@@ -40,3 +40,8 @@ parent: 入門
 | `Alt + Shift + w` | Launch Rofi (**window mode**) | `rofi -show window -show-icons` |
 | `Alt + Shift + r` | Launch Rofi (**run mode**)    | `rofi -show run`                |
 
+我們先以「sxhkd」的設定來舉例，可以參考我的「[sxhkdrc](https://github.com/samwhelp/note-about-rofi/blob/gh-pages/_demo/quick-start/keybind/keybind-by-sxhkd/demo-001/sxhkdrc)」範例設定。
+
+我在各個「桌面環境」也是設定上面三個「按鍵綁定」來「啟動 Rofi」，
+
+相關設定，就要參考我在各個「桌面環境」的「按鍵綁定設定」。
