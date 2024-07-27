@@ -42,7 +42,7 @@ parent: 入門
 
 ## 範例
 
-| 範例 |
-| --- |
-| [rofi-config](https://github.com/samwhelp/note-about-rofi/tree/demo/_demo/rofi-config/Main) |
-| [dump-default-config](https://github.com/samwhelp/note-about-rofi/tree/demo/_demo/quick-start/dump/config/Default) |
+| 範例 | 設定檔 |
+| --- | --- |
+| [rofi-config](https://github.com/samwhelp/note-about-rofi/tree/demo/_demo/rofi-config/Main) | [~/.config/rofi/config.rasi](https://github.com/samwhelp/note-about-rofi/blob/demo/_demo/rofi-config/Main/asset/overlay/etc/skel/.config/rofi/config.rasi) |
+| [dump-default-config](https://github.com/samwhelp/note-about-rofi/tree/demo/_demo/quick-start/dump/config/Default) | [~/.config/rofi/config.rasi](https://github.com/samwhelp/note-about-rofi/blob/demo/_demo/quick-start/dump/config/Default/config.rasi) |
