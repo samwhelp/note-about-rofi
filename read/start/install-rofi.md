@@ -16,7 +16,9 @@ parent: 入門
 * [相關文件](#相關文件)
 * [安裝腳本](#安裝腳本)
 * [如何安裝](#如何安裝)
-
+* [觀看版本](#觀看版本)
+* [Help](#Help)
+* [下一步](#下一步)
 
 
 
@@ -104,3 +106,56 @@ sudo pacman -Sy --needed rofi
 | Archlinux Package |
 | --- |
 | [rofi](https://archlinux.org/packages/extra/x86_64/rofi/) |
+
+
+
+
+## 觀看版本
+
+執行
+
+``` sh
+rofi -version
+```
+
+或是執行
+
+``` sh
+rofi -V
+```
+
+顯示
+
+```
+Version: 1.7.5
+```
+
+
+
+
+## Help
+
+執行「`rofi --help`」或是「`rofi -h`」可以看到「`rofi`」這個指令，有那些參數可以下。
+
+也可以執行「`man rofi`」來觀看「`rofi`」這個指令的「Manpage (Manual)」。
+
+以下是整理相關的「Manpage (Manual)」列表。
+
+| Manual |
+| ------ |
+| [man rofi](https://github.com/davatorium/rofi/blob/next/doc/rofi.1.markdown) |
+| [man rofi-dmenu](https://github.com/davatorium/rofi/blob/next/doc/rofi-dmenu.5.markdown) |
+| [man rofi-script](https://github.com/davatorium/rofi/blob/next/doc/rofi-script.5.markdown) |
+| [man rofi-thumbnails](https://github.com/davatorium/rofi/blob/next/doc/rofi-thumbnails.5.markdown) |
+| [man rofi-debugging](https://github.com/davatorium/rofi/blob/next/doc/rofi-debugging.5.markdown) |
+| [man keys](https://github.com/davatorium/rofi/blob/next/doc/rofi-keys.5.markdown) |
+| [man rofi-theme](https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown) |
+| [man rofi-theme-selector](https://github.com/davatorium/rofi/blob/next/doc/rofi-theme-selector.1.markdown) |
+| [man rofi-sensible-terminal](https://github.com/davatorium/rofi/blob/next/doc/rofi-sensible-terminal.1.markdown) |
+
+
+
+
+## 下一步
+
+接下來我們來了解「[如何啟動 Rofi](https://samwhelp.github.io/note-about-rofi/read/start/launch-rofi.html)」。
