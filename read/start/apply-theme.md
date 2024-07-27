@@ -27,7 +27,7 @@ parent: 入門
 | ------- |
 | Rofi / Wiki / [Themes](https://github.com/davatorium/rofi/wiki/Themes) |
 | [man rofi-theme](https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown) |
-
+| [man rofi-theme-selector](https://github.com/davatorium/rofi/blob/next/doc/rofi-theme-selector.1.markdown) |
 
 
 
@@ -198,3 +198,27 @@ rofi -show drun -theme-str "element { padding: 20px ; }"
 
 
 ### 透過輔助工具
+
+> rofi 本身也有提供一個輔助工具「[rofi-theme-selector](https://github.com/davatorium/rofi/blob/next/script/rofi-theme-selector)」
+
+> $ [man rofi-theme-selector](https://github.com/davatorium/rofi/blob/next/doc/rofi-theme-selector.1.markdown)
+
+
+執行「rofi-theme-selector」後，也是「rofi」的操作模式。
+
+選擇「某一個佈景主題」，
+
+接著按下「`Enter`」，可以「預覽」「該佈景主題」的效果。
+
+接著按下「`Alt + a`」，可以「採用」「該佈景主題」。
+
+這個「採用」的動作，也是將設定值，保存在「`~/.config/rofi/config.rasi`」這個檔案。
+
+
+舉例：設定採用「`gruvbox-dark`」，設定片段如下
+
+```
+@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+```
+
+就如同上面提到的「[透過設定檔](#透過設定檔)」，也就是「手動編輯」「`~/.config/rofi/config.rasi`」這個檔案。
