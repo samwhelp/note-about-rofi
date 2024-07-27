@@ -2,4 +2,4 @@
 
 
 #rofi -dump-theme > theme.rasi
-rofi -dump-theme -no-theme > theme.rasi
+rofi -dump-theme -no-config > theme.rasi
