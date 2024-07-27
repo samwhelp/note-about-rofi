@@ -15,6 +15,7 @@ parent: 入門
 
 * [相關文件](#相關文件)
 * [設定檔路徑](#設定檔路徑)
+* [範例](#範例)
 
 
 
@@ -35,3 +36,13 @@ parent: 入門
 | 設定檔路徑 |
 | --------- |
 | `~/.config/rofi/config.rasi` |
+
+
+
+
+## 範例
+
+| 範例 |
+| --- |
+| [rofi-config](https://github.com/samwhelp/note-about-rofi/tree/demo/_demo/rofi-config/Main) |
+| [dump-defult-config](https://github.com/samwhelp/note-about-rofi/tree/demo/_demo/quick-start/dump/config/Default) |
