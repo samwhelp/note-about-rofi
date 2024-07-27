@@ -102,6 +102,10 @@ solarized_alternate
 
 ### 透過指令參數
 
+* [透過「rofi -theme」](#透過rofi--theme)
+* [透過「rofi -theme-str」](#透過rofi--theme-str)
+
+
 
 
 ### 透過「rofi -theme」
