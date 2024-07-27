@@ -102,7 +102,9 @@ solarized_alternate
 
 ### 透過指令參數
 
-#### 透過「rofi -theme」
+
+
+### 透過「rofi -theme」
 
 第一個方式我們可以透過「`rofi -theme`」這個「指令參數」來指定「rofi」要採用的「佈景主題」。
 
@@ -149,7 +151,7 @@ rofi -show drun -theme extra/my-theme
 
 
 
-#### 透過「rofi -theme-str」
+### 透過「rofi -theme-str」
 
 > 另外有一個指令參數「`rofi -theme-str`」，可以直接將「佈景主題裡面的設定」傳給「rofi」採用。
 
