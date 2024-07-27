@@ -26,6 +26,7 @@ parent: 入門
 
 | 相關文件 |
 | ------- |
+| Rofi / [Themes](https://davatorium.github.io/rofi/themes/themes/) |
 | Rofi / Wiki / [Themes](https://github.com/davatorium/rofi/wiki/Themes) |
 | [man rofi-theme](https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown) |
 | [man rofi-theme-selector](https://github.com/davatorium/rofi/blob/next/doc/rofi-theme-selector.1.markdown) |
@@ -43,6 +44,8 @@ parent: 入門
 
 
 > Rofi 自帶的佈景主題，放在「/usr/share/rofi/themes/」這個路徑，副檔名是「`.rasi`」。
+
+> 這些佈景主題的外觀，可以在「Rofi / [Themes](https://davatorium.github.io/rofi/themes/themes/)」這個頁面看到「預覽圖」。
 
 執行下面指令，觀看在「/usr/share/rofi/themes/」這個路徑，有那些副檔名是「`.rasi`」的檔案。
 
