@@ -19,6 +19,10 @@
 | `Alt + Shift + w` | Launch Rofi (**window mode**) | `rofi -show window -show-icons` |
 | `Alt + Shift + r` | Launch Rofi (**run mode**)    | `rofi -show run`                |
 
+> note-about-bspwm / [sxhkd-config](https://github.com/samwhelp/note-about-bspwm/tree/gh-pages/_demo/config/sxhkd-config/rofi/basic)
+
+
+
 
 ## Howto
 
