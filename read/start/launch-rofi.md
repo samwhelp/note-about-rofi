@@ -37,3 +37,5 @@ parent: 入門
 | **drun**   | `rofi -show drun`   |
 | **window** | `rofi -show window` |
 | **run**    | `rofi -show run`    |
+
+接著可以參考[我個人慣用的「按鍵綁定」來「啟動 Rofi」](https://samwhelp.github.io/note-about-rofi/read/start/keybind-launching-rofi.html)。
