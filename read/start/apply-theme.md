@@ -221,4 +221,4 @@ rofi -show drun -theme-str "element { padding: 20px ; }"
 @theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
 ```
 
-就如同上面提到的「[透過設定檔](#透過設定檔)」，也就是「手動編輯」「`~/.config/rofi/config.rasi`」這個檔案。
+就如同上面提到的「[透過設定檔](#透過設定檔)」，也就是如同「手動編輯」「`~/.config/rofi/config.rasi`」這個檔案。
