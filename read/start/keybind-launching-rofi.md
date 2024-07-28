@@ -36,9 +36,10 @@ parent: 入門
 
 | Keybind           | Action                        | Command                         |
 | ----------------- | ----------------------------- | ------------------------------- |
+| `Alt + Shift + r` | Launch Rofi (**run mode**)    | `rofi -show run`                |
 | `Alt + Shift + d` | Launch Rofi (**drun mode**)   | `rofi -show drun -show-icons`   |
 | `Alt + Shift + w` | Launch Rofi (**window mode**) | `rofi -show window -show-icons` |
-| `Alt + Shift + r` | Launch Rofi (**run mode**)    | `rofi -show run`                |
+
 
 我們先以「sxhkd」的設定來舉例，可以參考我的「[sxhkdrc](https://github.com/samwhelp/note-about-rofi/blob/gh-pages/_demo/quick-start/keybind/keybind-by-sxhkd/demo-001/sxhkdrc)」範例設定。
 
