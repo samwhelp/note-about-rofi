@@ -36,6 +36,10 @@
 | [按鍵綁定 / 啟動 Rofi](https://samwhelp.github.io/note-about-rofi/read/start/keybind-launching-rofi.html) |
 | [設定採用佈景主題](https://samwhelp.github.io/note-about-rofi/read/start/apply-theme.html) |
 | [Rofi 設定檔](https://samwhelp.github.io/note-about-rofi/read/start/config-file.html) |
+| [Rofi Mode](https://samwhelp.github.io/note-about-rofi/read/start/rofi-mode.html) |
+| [Rofi Custom Mode](https://samwhelp.github.io/note-about-rofi/read/start/rofi-custom-mode.html) |
+| [Rofi Dmenu Mode](https://samwhelp.github.io/note-about-rofi/read/start/rofi-dmenu-mode.html) |
+| [Rofi Keyind And Mousebind](https://samwhelp.github.io/note-about-rofi/read/start/rofi-keybind-and-mousebind.html) |
 
 
 
