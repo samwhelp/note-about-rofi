@@ -33,7 +33,7 @@ parent: 入門
 
 ## rofi keys mode
 
-在「[Rofi Mode](https://samwhelp.github.io/note-about-rofi/read/start/rofi-mode.html)」這篇提到，「Rofi」內建有許多「[Mode](https://github.com/davatorium/rofi/blob/next/doc/rofi.1.markdown#available-modes)」執行。
+在「[Rofi Mode](https://samwhelp.github.io/note-about-rofi/read/start/rofi-mode.html)」這篇提到，「Rofi」內建有許多的「[Mode](https://github.com/davatorium/rofi/blob/next/doc/rofi.1.markdown#available-modes)」可供執行。
 
 其中有一個「`rofi -show keys`」，也就是「`keys`」這個「Rofi Mode」。
 
