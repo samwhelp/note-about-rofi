@@ -15,6 +15,7 @@ parent: 入門
 
 * [相關文件](#相關文件)
 * [相關議題](#相關議題)
+* [啟動模式](#啟動模式)
 
 
 
@@ -23,7 +24,7 @@ parent: 入門
 
 | 相關文件 |
 | ------- |
-| [man rofi](https://github.com/davatorium/rofi/blob/next/doc/rofi.1.markdown) |
+| [man rofi](https://github.com/davatorium/rofi/blob/next/doc/rofi.1.markdown#available-modes) |
 
 
 
@@ -35,3 +36,26 @@ parent: 入門
 | [啟動 Rofi](https://samwhelp.github.io/note-about-rofi/read/start/launch-rofi.html) |
 | [Rofi Custom Mode](https://samwhelp.github.io/note-about-rofi/read/start/rofi-custom-mode.html) |
 | [Rofi Dmenu Mode](https://samwhelp.github.io/note-about-rofi/read/start/rofi-dmenu-mode.html) |
+
+
+
+
+## 啟動模式
+
+| 內建的啟動模式     | 啟動指令                   |
+| ---------------- | ------------------------ |
+| **drun**         | `rofi -show drun`        |
+| **window**       | `rofi -show window`      |
+| **run**          | `rofi -show run`         |
+| **ssh**          | `rofi -show ssh`         |
+| **keys**         | `rofi -show keys`        |
+| **filebrowser**  | `rofi -show filebrowser` |
+| **windowcd**     | `rofi -show windowcd`    |
+| **combi**        | `rofi -show combi`       |
+
+
+| 擴充腳本模式  |
+| ----------- |
+| [Rofi Custom Mode](https://samwhelp.github.io/note-about-rofi/read/start/rofi-custom-mode.html)  |
+| [Rofi Dmenu Mode](https://samwhelp.github.io/note-about-rofi/read/start/rofi-dmenu-mode.html)   |
+
