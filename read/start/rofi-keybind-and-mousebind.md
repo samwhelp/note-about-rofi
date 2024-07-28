@@ -48,7 +48,7 @@ rofi -show keys -modes keys
 
 ## 自訂「鍵盤按鍵綁定」和「滑鼠按鍵綁定」
 
-> 可以編輯「`~/.config/rofi/config.rasi`」這個檔案，自訂「`Rofi操作的鍵盤按鍵`」。
+> 可以編輯「`~/.config/rofi/config.rasi`」這個檔案，自訂慣用的「**Rofi操作的按鍵綁定**」。
 
 在「[Rofi 設定檔](https://samwhelp.github.io/note-about-rofi/read/start/config-file.html#dump-config)」設定檔有提到，
 
