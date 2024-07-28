@@ -40,6 +40,7 @@ parent: 入門
 | 佈景主題放置路徑 |
 | -------------- |
 | [/usr/share/rofi/themes/](https://github.com/davatorium/rofi/tree/next/themes) |
+| `~/.local/share/rofi/themes` |
 | `~/.config/rofi` |
 
 
@@ -130,11 +131,60 @@ rofi -show drun -theme gruvbox-dark
 rofi -show drun -theme /usr/share/rofi/themes/gruvbox-dark.rasi
 ```
 
+
+
+
+
+
+
+
+> 上面有提到，也可以將「Rofi 佈景主題」放在「`~/.local/share/rofi/themes`」這個資料夾底下。
+
+執行下面指令，複製一份到「~/.local/share/rofi/themes/this-theme.rasi」。
+
+``` sh
+mkdir -p ~/.local/share/rofi/themes
+
+cp /usr/share/rofi/themes/gruvbox-dark.rasi ~/.local/share/rofi/themes/this-theme.rasi
+```
+
+執行下面指令
+
+``` sh
+rofi -show drun -theme this-theme
+```
+
+
+
+
+> 也可以在「`~/.local/share/rofi/themes`」這個資料夾底下，開一個「子資料夾」放置。
+
+``` sh
+mkdir -p ~/.local/share/rofi/themes/more
+
+cp /usr/share/rofi/themes/gruvbox-dark.rasi ~/.local/share/rofi/themes/more/that-theme.rasi
+```
+
+執行下面指令
+
+``` sh
+rofi -show drun -theme more/that-theme
+```
+
+
+
+
+
+
+
+
 > 上面有提到，也可以將「Rofi 佈景主題」放在「`~/.config/rofi`」這個資料夾底下。
 
 執行下面指令，複製一份到「~/.config/rofi/demo-theme.rasi」。
 
 ``` sh
+mkdir -p ~/.config/rofi
+
 cp /usr/share/rofi/themes/gruvbox-dark.rasi ~/.config/rofi/demo-theme.rasi
 ```
 
@@ -143,6 +193,9 @@ cp /usr/share/rofi/themes/gruvbox-dark.rasi ~/.config/rofi/demo-theme.rasi
 ``` sh
 rofi -show drun -theme demo-theme
 ```
+
+
+
 
 > 也可以在「`~/.config/rofi`」這個資料夾底下，開一個「子資料夾」放置。
 
