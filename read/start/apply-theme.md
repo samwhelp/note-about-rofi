@@ -16,6 +16,7 @@ parent: 入門
 * [相關文件](#相關文件)
 * [佈景主題放置路徑](#佈景主題放置路徑)
 * [如何設定採用](#如何設定採用)
+* [Rofi Themes Collection](#rofi-themes-collection)
 * [下一步](#下一步)
 
 
@@ -281,6 +282,16 @@ rofi -show drun -theme-str "element { padding: 20px ; }"
 ```
 
 就如同上面提到的「[透過設定檔](#透過設定檔)」，也就是如同「手動編輯」「`~/.config/rofi/config.rasi`」這個檔案。
+
+
+
+
+## Rofi Themes Collection
+
+| Rofi Themes Collection |
+| ---------------------- |
+| [rofi-themes-collection](https://github.com/newmanls/rofi-themes-collection) |
+| [rofi-collection](https://github.com/Murzchnvok/rofi-collection) |
 
 
 
