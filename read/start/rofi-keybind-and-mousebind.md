@@ -56,7 +56,7 @@ rofi -show keys -modes keys
 
 將「Rofi 預設的設定值」給「Dump」出來，
 
-裡面有有預設的鍵盤按鍵設定，就可以根據這個內容來修改。
+裡面有「預設的鍵盤按鍵設定」，就可以根據這些設定內容來修改。
 
 相關的內容，可以參考範例「dump-default-config / [config.rasi](https://github.com/samwhelp/note-about-rofi/blob/demo/_demo/quick-start/dump/config/Default/config.rasi#L67-L142)」。
 
