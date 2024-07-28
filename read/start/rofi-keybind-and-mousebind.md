@@ -50,11 +50,13 @@ rofi -show keys -modes keys
 
 > 可以編輯「`~/.config/rofi/config.rasi`」這個檔案，自訂慣用的「**Rofi操作的按鍵綁定**」。
 
-在「[Rofi 設定檔](https://samwhelp.github.io/note-about-rofi/read/start/config-file.html#dump-config)」設定檔有提到，
+在「[Rofi 設定檔](https://samwhelp.github.io/note-about-rofi/read/start/config-file.html#dump-config)」這篇有提到，
 
 可以透過執行「`rofi -dump-config -no-config`」，
 
-將「Rofi　預設的設定值」給「Dump」出來，裡面有有預設的鍵盤按鍵設定，就可以根據這個來修改。
+將「Rofi　預設的設定值」給「Dump」出來，
+
+裡面有有預設的鍵盤按鍵設定，就可以根據這個內容來修改。
 
 相關的內容，可以參考範例「dump-default-config / [config.rasi](https://github.com/samwhelp/note-about-rofi/blob/demo/_demo/quick-start/dump/config/Default/config.rasi#L67)」。
 
