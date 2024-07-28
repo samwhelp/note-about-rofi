@@ -54,7 +54,7 @@ rofi -show keys -modes keys
 
 可以透過執行「`rofi -dump-config -no-config`」，
 
-將「Rofi　預設的設定值」給「Dump」出來，
+將「Rofi 預設的設定值」給「Dump」出來，
 
 裡面有有預設的鍵盤按鍵設定，就可以根據這個內容來修改。
 
