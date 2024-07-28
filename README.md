@@ -39,7 +39,7 @@
 | [Rofi Mode](https://samwhelp.github.io/note-about-rofi/read/start/rofi-mode.html) |
 | [Rofi Custom Mode](https://samwhelp.github.io/note-about-rofi/read/start/rofi-custom-mode.html) |
 | [Rofi Dmenu Mode](https://samwhelp.github.io/note-about-rofi/read/start/rofi-dmenu-mode.html) |
-| [Rofi Keyind And Mousebind](https://samwhelp.github.io/note-about-rofi/read/start/rofi-keybind-and-mousebind.html) |
+| [操作「Rofi」的「按鍵綁定」](https://samwhelp.github.io/note-about-rofi/read/start/rofi-keybind-and-mousebind.html) |
 
 
 

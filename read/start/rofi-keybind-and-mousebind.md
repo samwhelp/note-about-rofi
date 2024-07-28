@@ -1,12 +1,14 @@
 ---
-title: Rofi Keyind And Mousebind
+title: 操作「Rofi」的「按鍵綁定」
 nav_order: 1090
 has_children: false
 parent: 入門
 ---
 
 
-# Rofi Keyind And Mousebind
+# 操作「Rofi」的「按鍵綁定」
+
+> Rofi Keyind And Mousebind
 
 
 
@@ -48,7 +50,7 @@ rofi -show keys -modes keys
 
 ## 自訂「鍵盤按鍵綁定」和「滑鼠按鍵綁定」
 
-> 可以編輯「`~/.config/rofi/config.rasi`」這個檔案，自訂慣用的「**Rofi操作的按鍵綁定**」。
+> 可以編輯「`~/.config/rofi/config.rasi`」這個檔案，自訂慣用的「**操作Rofi的按鍵綁定**」。
 
 在「[Rofi 設定檔](https://samwhelp.github.io/note-about-rofi/read/start/config-file.html#dump-config)」這篇有提到，
 
