@@ -44,9 +44,9 @@ parent: 入門
 
 | 內建的啟動模式     | 啟動指令                   |
 | ---------------- | ------------------------ |
+| **run**          | `rofi -show run`         |
 | **drun**         | `rofi -show drun`        |
 | **window**       | `rofi -show window`      |
-| **run**          | `rofi -show run`         |
 | **ssh**          | `rofi -show ssh`         |
 | **keys**         | `rofi -show keys`        |
 | **filebrowser**  | `rofi -show filebrowser` |
