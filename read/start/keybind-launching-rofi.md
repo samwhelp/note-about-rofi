@@ -14,6 +14,7 @@ parent: 入門
 ## 主題
 
 * [相關文件](#相關文件)
+* [相關議題](#相關議題)
 * [按鍵綁定](#按鍵綁定)
 * [下一步](#下一步)
 
@@ -25,6 +26,15 @@ parent: 入門
 | 相關文件 |
 | ------- |
 | Rofi / [Quickstart](https://github.com/davatorium/rofi#quickstart) |
+
+
+
+
+## 相關議題
+
+| 相關議題 |
+| ------- |
+| [操作「Rofi」的「按鍵綁定」](https://samwhelp.github.io/note-about-rofi/read/start/rofi-keybind-and-mousebind.html) |
 
 
 

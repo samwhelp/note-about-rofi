@@ -16,17 +16,27 @@ parent: 入門
 ## 主題
 
 * [相關文件](#相關文件)
+* [相關議題](#相關議題)
 * [rofi keys mode](#rofi-keys-mode)
 * [自訂「鍵盤按鍵綁定」和「滑鼠按鍵綁定」](#自訂鍵盤按鍵綁定和滑鼠按鍵綁定)
 
 
 
 
-## 相關文件
+## 相關議題
 
 | 相關文件 |
 | ------- |
 | [man keys](https://github.com/davatorium/rofi/blob/next/doc/rofi-keys.5.markdown) |
+
+
+
+
+## 相關議題
+
+| 相關議題 |
+| ------- |
+| [按鍵綁定 / 啟動 Rofi](https://samwhelp.github.io/note-about-rofi/read/start/keybind-launching-rofi.html) |
 
 
 
