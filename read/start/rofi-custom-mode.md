@@ -128,6 +128,30 @@ quit
 rofi -show my-mode -modes "my-mode:./my-script.sh"
 ```
 
+關於「`my-script.sh`」這個自訂腳本，在上面的範例是放在目前實驗的資料夾。
+
+> 我們可以將它放到有在「PATH」裡面的路徑。
+
+執行
+
+``` sh
+echo $PATH
+```
+
+顯示
+
+```
+/home/user/.local/bin:/home/user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+```
+
+舉例:放到「`~/.local/bin`」這個路徑，這樣上面的指令就可以改成如下，
+
+``` sh
+rofi -show my-mode -modes "my-mode:my-script.sh"
+```
+
+> 原來的「`./my-script.sh`」少了「'./'」。
+
 
 
 
