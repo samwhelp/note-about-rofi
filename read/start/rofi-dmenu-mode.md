@@ -47,6 +47,7 @@ parent: 入門
 | gh0stzk / [RiceSelector](https://github.com/gh0stzk/dotfiles/blob/master/config/bspwm/src/RiceSelector#L50-L51) |
 | gh0stzk / [WallSelect](https://github.com/gh0stzk/dotfiles/blob/master/config/bspwm/src/WallSelect#L52) |
 | adi1090x / [rofi](https://github.com/adi1090x/rofi) |
+| christianholman / [rofi_notes](https://github.com/christianholman/rofi_notes) |
 
 
 
