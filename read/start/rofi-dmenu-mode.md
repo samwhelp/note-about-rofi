@@ -18,7 +18,7 @@ parent: 入門
 * [範例](#範例)
 * [實作案例](#實作案例)
 * [相關筆記](#相關筆記)
-* [Dmenu Mode](#dmenu-,ode)
+* [Dmenu Mode](#dmenu-mode)
 
 
 
