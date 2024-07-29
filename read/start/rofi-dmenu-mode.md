@@ -76,7 +76,7 @@ parent: 入門
 
 ## Dmenu Mode
 
-撰寫「Rofi 擴充腳本」，除了另一篇介紹的「[自訂 Rofi啟動模式](https://samwhelp.github.io/note-about-rofi/read/start/rofi-custom-mode.html#%E7%AF%84%E4%BE%8B%E4%B8%80)」。
+撰寫「Rofi 擴充腳本」，除了另一篇介紹的「[自訂 Rofi 啟動模式](https://samwhelp.github.io/note-about-rofi/read/start/rofi-custom-mode.html#%E7%AF%84%E4%BE%8B%E4%B8%80)」。
 
 關於「自訂 Rofi啟動模式」的範例指令如下
 
