@@ -131,3 +131,9 @@ vim ${selected}
 ``` sh
 echo -en "aaa.txt\nbbb.txt\nccc.txt\n" | rofi -dmenu | xargs -o vim
 ```
+
+
+
+``` sh
+ls | rofi -dmenu | xargs -o vim
+```
