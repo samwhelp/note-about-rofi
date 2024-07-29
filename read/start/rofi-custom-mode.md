@@ -150,7 +150,7 @@ echo $PATH
 rofi -show my-mode -modes "my-mode:my-script.sh"
 ```
 
-> 原來的「`./my-script.sh`」少了「'./'」。
+> 原來的「`./my-script.sh`」少了「`./`」。
 
 
 
