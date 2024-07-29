@@ -116,7 +116,7 @@ ccc
 bbb
 ```
 
-實作上可以改寫成如下，將選項的結果，紀錄到「`selected`」這個變數，以利後續的操作。
+> 實作上可以改寫成如下，將選項的結果，紀錄到「`selected`」這個變數，以利後續的操作。
 
 ``` sh
 selected=$(echo -en "aaa.txt\nbbb.txt\nccc.txt\n" | rofi -dmenu)
@@ -126,7 +126,7 @@ echo "Selected: ${selected}"
 vim ${selected}
 ```
 
-或是也可以搭配「[xargs](https://manpages.ubuntu.com/manpages/noble/en/man1/xargs.1.html)」來操作。
+> 或是也可以搭配「[xargs](https://manpages.ubuntu.com/manpages/noble/en/man1/xargs.1.html)」來操作。
 
 ``` sh
 echo -en "aaa.txt\nbbb.txt\nccc.txt\n" | rofi -dmenu | xargs -o vim
