@@ -144,7 +144,7 @@ echo $PATH
 /home/user/.local/bin:/home/user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
 ```
 
-舉例:放到「`~/.local/bin`」這個路徑，這樣上面的指令就可以改成如下，
+舉例:放到「`~/.local/bin`」這個路徑，這樣上面的指令，就可以改成如下，
 
 ``` sh
 rofi -show my-mode -modes "my-mode:my-script.sh"
