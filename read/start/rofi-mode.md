@@ -17,6 +17,7 @@ parent: 入門
 * [相關議題](#相關議題)
 * [啟動模式](#啟動模式)
 * [設定「modes」](#設定modes)
+* [下一步](#下一步)
 
 
 
@@ -147,3 +148,10 @@ configuration {
 ``` sh
 rofi -show drun
 ```
+
+
+
+
+## 下一步
+
+接下來，我們來了解「[如何自訂 Rofi啟動模式](https://samwhelp.github.io/note-about-rofi/read/start/rofi-custom-mode.html)」。
