@@ -18,6 +18,7 @@ parent: 入門
 * [範例](#範例)
 * [Dump Config](#dump-config)
 * [關於「~/.config/rofi/config.rasi」的內容架構](#關於configroficonfigrasi的內容架構)
+* [下一步](#下一步)
 
 
 
@@ -118,3 +119,10 @@ configuration {
 @import "extra-config.rasi"
 @theme "/usr/share/rofi/themes/Arc-Dark.rasi"
 ```
+
+
+
+
+## 下一步
+
+接下來，我們來進一步了解「[Rofi的啟動模式(Mode)](https://samwhelp.github.io/note-about-rofi/read/start/rofi-mode.html)」的相關概念。

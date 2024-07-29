@@ -158,4 +158,4 @@ Version: 1.7.5
 
 ## 下一步
 
-接下來我們來了解「[如何啟動 Rofi](https://samwhelp.github.io/note-about-rofi/read/start/launch-rofi.html)」。
+接下來，我們來了解「[如何啟動 Rofi](https://samwhelp.github.io/note-about-rofi/read/start/launch-rofi.html)」。

@@ -53,4 +53,4 @@ parent: 入門
 
 ## 下一步
 
-接下來我們來了解「[如何設定採用佈景主題](https://samwhelp.github.io/note-about-rofi/read/start/apply-theme.html)」。
+接下來，我們來了解「[如何設定採用佈景主題](https://samwhelp.github.io/note-about-rofi/read/start/apply-theme.html)」。
