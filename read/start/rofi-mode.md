@@ -16,6 +16,7 @@ parent: 入門
 * [相關文件](#相關文件)
 * [相關議題](#相關議題)
 * [啟動模式](#啟動模式)
+* [設定「modes」](#設定modes)
 
 
 
@@ -103,3 +104,46 @@ rofi -show drun -theme iggy
 所以我們除了使用剛剛提到的「鍵盤按鍵組合」來切換到不同的模式。
 
 也可以透過「滑鼠左鍵單擊」某個「頁籤 (Tab)」來切換到不同的模式。
+
+
+
+
+## 設定「modes」
+
+* [透過指令參數](#透過指令參數)
+* [透過設定檔](#透過設定檔)
+
+
+
+
+### 透過指令參數
+
+>  我們可以透過「`rofi -modes "window,drun,run,filebrowser"`」來指定「預設要啟用」的「Rofi Mode」。
+
+範例指令如下
+
+``` sh
+rofi -show drun -theme iggy -modes "window,drun,run,filebrowser"
+```
+
+
+
+
+### 透過設定檔
+
+>  我們也可以透過編輯「`~/.config/rofi/config.rasi`」這個設定檔，來指定「預設要啟用」的「Rofi Mode」。
+
+設定片段如下
+
+``` css
+configuration {
+	modes: "window,drun,run,filebrowser";
+}
+@theme "iggy"
+```
+
+啟動「Rofi」的範例指令如下
+
+``` sh
+rofi -show drun
+```
