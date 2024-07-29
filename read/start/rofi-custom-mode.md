@@ -130,7 +130,7 @@ rofi -show my-mode -modes "my-mode:./my-script.sh"
 
 關於「`my-script.sh`」這個自訂腳本，在上面的範例是放在目前實驗的資料夾。
 
-> 我們可以將它放到有在「PATH」裡面的路徑。
+> 我們可以將它放到有在「環境變數: PATH」裡面的路徑。
 
 執行
 
