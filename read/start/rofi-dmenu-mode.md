@@ -14,6 +14,7 @@ parent: 入門
 ## 主題
 
 * [相關文件](#相關文件)
+* [相關議題](#相關議題)
 * [範例](#範例)
 * [實作案例](#實作案例)
 * [相關筆記](#相關筆記)
@@ -27,6 +28,17 @@ parent: 入門
 | ------- |
 | [man rofi-dmenu](https://github.com/davatorium/rofi/blob/next/doc/rofi-dmenu.5.markdown) |
 | Rofi / Wiki / [User scripts](https://github.com/davatorium/rofi/wiki/User-scripts) |
+
+
+
+
+## 相關議題
+
+| 相關議題 |
+| ------- |
+| [啟動 Rofi](https://samwhelp.github.io/note-about-rofi/read/start/launch-rofi.html) |
+| [Rofi Mode](https://samwhelp.github.io/note-about-rofi/read/start/rofi-mode.html) |
+| [Rofi Custom Mode](https://samwhelp.github.io/note-about-rofi/read/start/rofi-custom-mode.html) |
 
 
 

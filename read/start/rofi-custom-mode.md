@@ -17,6 +17,7 @@ parent: 入門
 * [相關議題](#相關議題)
 * [實作案例](#實作案例)
 * [範例一](#範例一)
+* [下一步](#下一步)
 
 
 
@@ -126,3 +127,10 @@ quit
 ``` sh
 rofi -show my-mode -modes "my-mode:./my-script.sh"
 ```
+
+
+
+
+## 下一步
+
+接下來，我們來了解另一個模式「[Rofi Dmenu Mode](https://samwhelp.github.io/note-about-rofi/read/start/rofi-dmenu-mode.html)」，也是可以用來撰寫擴充腳本。
